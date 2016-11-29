@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="cse5335 project 2" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<title>CSE5335-sxc9412 project 2</title>
+</head>
+<body ng-app="cseWeb" ng-controller="webDataManagement">
+	<div class="splash">
+		
+		<div class="heading front">CSE5335-sxc9412 project 2</div>
+		<div class="name front">By Shilpa Chandermohan</div>
+		<div class="name front">Student ID : 1001239412</div>
+		<div class="name front">Responsive webpage where css filter is used to get the blur background image!</div>
+		<input type="button" class="btn btn-danger front" value="View Students List!" ng-click="scrollToSectionTwo()"/>
+		<div class="bg"></div>
+	</div>
+	<div class="countriesList">
+		<div class="container">
+			<table class="table table-bordered studentTable">
+				<thead>
+					<tr>
+						<th>Index</th>
+						<th>Title</th>
+						<th>Display Link</th>
+					</tr>
+				</thead>
+				<tbody id="list">
+				</tbody>
+		  </table>
+	    </div>
+	</div>
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
